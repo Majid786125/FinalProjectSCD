@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpaBuddyIdeaProjectConfig">
+    <option name="defaultUnitInitialized" value="true" />
+    <option name="reverseEngineeringLastDbConnectionId" value="3bacbce3-0283-45f8-8bf9-03a0136c8b38" />
+    <option name="reLastEntityCreationPackage" value="src/main/java/com/example/FinalProject/entity" />
+    <reUseDbSnapshotConnections>
+      <dbConnection id="1d097b20-5a29-4959-9207-14b8c0dfaf66" />
+      <dbConnection id="25bce3d5-0d03-4e11-918c-a9df96a63515" />
+      <dbConnection id="7aafe46e-7887-40fe-9d45-9c257d2fedcd" />
+      <dbConnection id="4936f86a-798f-4f39-a66b-0789e74dcd8a" />
+      <dbConnection id="93ae5500-17ad-4ad1-b038-4b2d0dad3ec2" />
+      <dbConnection id="477e7792-2388-454b-bff5-38358311f223" />
+      <dbConnection id="e86700d3-d6a2-4058-9292-7e52d9af9d8d" />
+      <dbConnection id="fe7fdc7e-09d0-419b-ab73-1bf78a3f02ea" />
+      <dbConnection id="ee982496-1fb8-432e-a100-0b8e83cf01c4" />
+      <dbConnection id="2e11b9a7-3b82-4d46-9be8-d4bd7aa1dd52" />
+      <dbConnection id="05b4fccc-c7fc-46cf-a6c9-6ac83608d38e" />
+      <dbConnection id="fcc19a43-77ca-4569-a275-f9fc5cd219d6" />
+      <dbConnection id="3bacbce3-0283-45f8-8bf9-03a0136c8b38" />
+    </reUseDbSnapshotConnections>
+    <option name="reIgnoreSlowDbConnections">
+      <ignoreDs id="1d097b20-5a29-4959-9207-14b8c0dfaf66" />
+      <ignoreDs id="25bce3d5-0d03-4e11-918c-a9df96a63515" />
+      <ignoreDs id="7aafe46e-7887-40fe-9d45-9c257d2fedcd" />
+      <ignoreDs id="4936f86a-798f-4f39-a66b-0789e74dcd8a" />
+      <ignoreDs id="93ae5500-17ad-4ad1-b038-4b2d0dad3ec2" />
+      <ignoreDs id="477e7792-2388-454b-bff5-38358311f223" />
+      <ignoreDs id="e86700d3-d6a2-4058-9292-7e52d9af9d8d" />
+      <ignoreDs id="fe7fdc7e-09d0-419b-ab73-1bf78a3f02ea" />
+      <ignoreDs id="ee982496-1fb8-432e-a100-0b8e83cf01c4" />
+      <ignoreDs id="2e11b9a7-3b82-4d46-9be8-d4bd7aa1dd52" />
+      <ignoreDs id="05b4fccc-c7fc-46cf-a6c9-6ac83608d38e" />
+      <ignoreDs id="fcc19a43-77ca-4569-a275-f9fc5cd219d6" />
+      <ignoreDs id="3bacbce3-0283-45f8-8bf9-03a0136c8b38" />
+    </option>
+  </component>
+</project>

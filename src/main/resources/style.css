@@ -1,0 +1,9 @@
+.img{
+    -fx-background-image: url("logo-mini.png");
+    -fx-background-size: 420px;
+    /*-fx-background-image: url("com/example/FinalProject/back.jpg");*/
+}
+.img2{
+    -fx-background-image: url("logo-mini.png");
+    -fx-background-size: 500px;
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="469.0" prefWidth="706.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.FinalProject.Controller.TableFX">
+   <children>
+      <TableView fx:id="tableview" layoutX="38.0" layoutY="92.0" prefHeight="250.0" prefWidth="643.0">
+        <columns>
+          <TableColumn fx:id="ID" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="NAME" prefWidth="75.0" text="NAME" />
+            <TableColumn fx:id="DONATION" prefWidth="145.59996032714844" text="DONATION AMOUNT" />
+            <TableColumn fx:id="PROJECT" prefWidth="117.5999755859375" text="PROJECT NAME" />
+            <TableColumn fx:id="DATE" minWidth="0.0" prefWidth="136.0" text="DONATION DATE" />
+            <TableColumn fx:id="EMAIL" prefWidth="92.0" text="EMAIL" />
+        </columns>
+      </TableView>
+      <Label layoutX="231.0" layoutY="45.0" prefHeight="41.0" prefWidth="192.0" text="Donation Record">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="submitButton" layoutX="301.0" layoutY="379.0" mnemonicParsing="false" onAction="#cancel" prefHeight="26.0" prefWidth="90.0" text="OK" />
+   </children>
+</AnchorPane>

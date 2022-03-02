@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="562.0" prefWidth="856.0" stylesheets="@style2.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.FinalProject.Controller.MainController">
+   <children>
+      <VBox layoutY="-2.0" prefHeight="512.0" prefWidth="221.0" style="-fx-background-color: #3F2863;" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Pane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="28.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@logo-mini.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="222.0" text="Home" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="tableButton" onAction="#ShowTableWindow" mnemonicParsing="false" prefHeight="48.0" prefWidth="222.0" text="Transaction Table" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="SettingButton" mnemonicParsing="false" onAction="#ShowSettingWindow" prefHeight="48.0" prefWidth="222.0" text="Setting" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="paymentButton" mnemonicParsing="false" onAction="#ShowPaymentWindow" prefHeight="41.0" prefWidth="222.0" text="Payment Method" textFill="#fff7f7">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="LogoutButton" mnemonicParsing="false" onAction="#ShowMainWindow" prefHeight="48.0" prefWidth="222.0" text="Logout" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+         </children>
+      </VBox>
+      <Label layoutX="433.0" layoutY="48.0" prefHeight="56.0" prefWidth="201.0" text="Trending Projects" textFill="#3f2863">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imageView2" fitHeight="113.0" fitWidth="258.0" layoutX="254.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@5.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imageView3" fitHeight="96.0" fitWidth="194.0" layoutX="580.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imageView4" fitHeight="130.0" fitWidth="250.0" layoutX="254.0" layoutY="246.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@wck.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imageView5" fitHeight="140.0" fitWidth="164.0" layoutX="580.0" layoutY="246.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imageView6" fitHeight="150.0" fitWidth="200.0" layoutX="285.0" layoutY="388.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imageView7" fitHeight="150.0" fitWidth="200.0" layoutX="580.0" layoutY="388.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@1.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

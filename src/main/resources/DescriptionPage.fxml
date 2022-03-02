@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.FinalProject.Controller.DescriptionFX">
+   <children>
+      <Label layoutX="270.0" layoutY="37.0" text="Description" />
+      <ImageView fx:id="descriptionImage" fitHeight="150.0" fitWidth="200.0" layoutX="201.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true" />
+      <TextArea fx:id="descriptionLabel" layoutX="141.0" layoutY="236.0" prefHeight="150.0" prefWidth="340.0" style="-fx-background-color: Black;" />
+      <Button fx:id="submitButton" layoutX="491.0" onAction="#showDonateWindow" layoutY="361.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="98.0" style="-fx-background-color: Red; -fx-border-color: Black;" text="Donate" />
+   </children>
+</AnchorPane>
